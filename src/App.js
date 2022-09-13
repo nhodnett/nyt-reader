@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
 import './App.css';
 
-function App() {
+const App = () => {
+  const [allArticles, setAllArticles] = useState([])
+  const [section, setSection] = useState("home")
+  const [error, setError] = useState(false)
+  
+  const fetchData = async () => {
+    const url = `https://api.nytimes.com/svc/topstories/v2/${section}.json?api-key=aZbmpGuGlAjI4Bm8GXzuUjgm75QdNlob`
+    
+    try {
+      const response = await fetch(url)
+      if (response.statusText !== "OK") {
+        throw Error(response.statusText)
+      } else {
+        const data = await response.json()
+        setAllArticles(data.results)
+      }
+    } catch(error) {
+      setError(true)
+    }
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, [section])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello World</h1>
     </div>
-  );
+  )
 }
 
 export default App;
