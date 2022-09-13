@@ -1,4 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import Nav from './components/Nav';
+import AllArticles from './components/AllArticles';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 const App = () => {
@@ -11,12 +14,9 @@ const App = () => {
     
     try {
       const response = await fetch(url)
-      if (response.statusText !== "OK") {
-        throw Error(response.statusText)
-      } else {
-        const data = await response.json()
-        setAllArticles(data.results)
-      }
+      const allArticles = await response.json()
+        setAllArticles(allArticles.results)
+        console.log(allArticles)
     } catch(error) {
       setError(true)
     }
@@ -28,7 +28,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Nav />
+        <>
+          <AllArticles 
+            allArticles={allArticles}
+          />
+        {/* <h1>Hello World</h1> */}
+          {/* <Route exact path='/'>
+          </Route> */}
+        </>
     </div>
   )
 }
