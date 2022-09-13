@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Nav from './components/Nav';
 import AllArticles from './components/AllArticles';
+import ArticleDetails from './components/ArticleDetails';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -29,14 +30,15 @@ const App = () => {
   return (
     <div className="App">
       <Nav />
-        <>
-          <AllArticles 
-            allArticles={allArticles}
-          />
-        {/* <h1>Hello World</h1> */}
-          {/* <Route exact path='/'>
-          </Route> */}
-        </>
+        <Switch>
+          <Route exact path='/'>
+            <AllArticles 
+              allArticles={allArticles}
+            />
+          </Route>
+          <Route exact path='/article/:id' render={({ match }) => <ArticleDetails id={ match.params.id } allArticles={ allArticles }/>}>
+          </Route>
+        </Switch>
     </div>
   )
 }
