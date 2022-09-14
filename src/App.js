@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Nav from './components/Nav';
 import AllArticles from './components/AllArticles';
 import ArticleDetails from './components/ArticleDetails';
+import Filter from './components/Filter';
+import Error from './components/Error';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -30,8 +32,13 @@ const App = () => {
   return (
     <div className="App">
       <Nav />
+      { error ? <Error /> :
         <Switch>
           <Route exact path='/'>
+            <Filter 
+              section={section} 
+              setSection={setSection}
+            />
             <AllArticles 
               allArticles={allArticles}
             />
@@ -39,6 +46,7 @@ const App = () => {
           <Route exact path='/article/:id' render={({ match }) => <ArticleDetails id={ match.params.id } allArticles={ allArticles }/>}>
           </Route>
         </Switch>
+      }
     </div>
   )
 }
