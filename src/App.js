@@ -31,7 +31,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Nav />
+      <Nav 
+        setSection={setSection}
+      />
       { error ? <Error /> :
         <Switch>
           <Route exact path='/'>
