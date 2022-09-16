@@ -1,0 +1,47 @@
+{  
+  "results": [
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Democrats Buoyed by Abortion and Trump, Times/Siena Poll Finds",
+      "abstract": "President Biden’s approval rating has climbed to 42 percent, and the number of Americans who believe the country is on the right track has doubled but remains low.",
+      "url": "https://www.nytimes.com/2022/09/16/us/politics/biden-democrats-abortion-trump-poll.html",
+      "uri": "nyt://article/3888d4a3-522a-55fa-8a11-320589242faf",
+      "byline": "By Lisa Lerer and Nate Cohn",
+      "item_type": "Article",
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/us/poll-biden-approval-righttrack-promo/poll-biden-approval-righttrack-promo-superJumbo.png",
+          "format": "Super Jumbo",
+          "height": 1333,
+          "width": 2000,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/us/poll-biden-approval-righttrack-promo/poll-biden-approval-righttrack-promo-threeByTwoSmallAt2X.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2022/09/15/us/poll-biden-approval-righttrack-promo/poll-biden-approval-righttrack-promo-thumbLarge.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/3de08Mc"
+    }
+  ]
+}
