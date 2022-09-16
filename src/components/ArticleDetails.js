@@ -4,6 +4,7 @@ import '../styles/ArticleDetails.css';
 const ArticleDetails = ({ allArticles, id }) => {
 
     const idNum = parseInt(id)
+    console.log('id', idNum)
     const selectedArticle = allArticles.find((article, index) => {
         return index === idNum
     })
