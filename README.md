@@ -9,16 +9,16 @@ Original project spec can be found [here](https://mod4.turing.edu/projects/take_
 
 ## Demonstration:
 
-
+![Demonstration](https://media.giphy.com/media/KMLzWcjln52ryi7bpW/giphy.gif)
 
 ## Set Up:
 Clone the repository to your local machine.
-cd into the application.
-Run npm install to install the project dependencies.
-Run npm start to see the application.
+`cd` into the application.
+Run `npm install` to install the project dependencies.
+Run `npm start` to see the application.
 Paste http://localhost:3000/ into your browser to view.
-If you need to stop running the application, run Control + C.
-To view tests, run npm run cypress.
+If you need to stop running the application, run `Control + C`.
+To view tests, run `npm run cypress`.
 
 ## Technologies Used:
 * React (including Hooks)
@@ -30,13 +30,14 @@ To view tests, run npm run cypress.
 * Restful API
 
 ## Planning:
+The project wireframe for this challenge can be found [here](https://excalidraw.com/).
+
+The GitHub project board for this challenge can be found [here](https://github.com/users/nhodnett/projects/3/views/1).
 
 ## Future Additions:
 * Implement responsive design
 * Cleaner CSS design
-* Implement more error handling and sad path testing
+* Complete e2e testing and implement sad path testing
 
 ## Additional Resources:
 Documentation for the New York Times API can be found [here](https://developer.nytimes.com/docs/top-stories-product/1/overview).
-
-The GitHub project board for this challenge can be found [here](https://github.com/users/nhodnett/projects/3/views/1).

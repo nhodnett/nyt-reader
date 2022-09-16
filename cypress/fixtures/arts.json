@@ -1,0 +1,69 @@
+{
+    "results": [
+    {
+    "section": "arts",
+    "subsection": "design",
+    "title": "The Afterlife of Willem de Kooning",
+    "abstract": "The artist’s ghost lingers in his studio, as an auction of three of his paintings tests the vitality of his commercial reputation.",
+    "url": "https://www.nytimes.com/2022/09/16/arts/design/de-kooning-sothebys-studio-east-hampton.html",
+    "uri": "nyt://article/43ef4855-09a6-5a0b-8314-9e61de52c22a",
+    "byline": "By Arthur Lubow",
+    "item_type": "Article",
+    "updated_date": "2022-09-16T07:22:49-04:00",
+    "created_date": "2022-09-16T03:00:14-04:00",
+    "published_date": "2022-09-16T03:00:14-04:00",
+    "material_type_facet": "",
+    "kicker": "",
+    "des_facet": [
+        "Art",
+        "Auctions",
+        "Nineteen Hundred Sixties"
+    ],
+    "org_facet": [
+        "Sotheby's"
+    ],
+    "per_facet": [
+        "de Kooning, Willem",
+        "Griffin, Kenneth C",
+        "Stevens, Mark (1951- )",
+        "Swan, Annalyn"
+    ],
+    "geo_facet": [
+        "East Hampton (NY)"
+    ],
+    "multimedia": [
+        {
+        "url": "https://static01.nyt.com/images/2022/09/16/arts/15dekooning-auction1/merlin_211295313_5ec96ffa-8e8c-457a-85fe-78e570b0767e-superJumbo.jpg",
+        "format": "Super Jumbo",
+        "height": 1365,
+        "width": 2048,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Two paintings by Willem de Kooning in the artist’s studio in East Hampton. Left to right, “Untitled” (circa 1979) and “Montauk II” (1969). Sotheby’s is auctioning three paintings by the Abstract Expressionist master in November.",
+        "copyright": "The Willem de Kooning Foundation/Artists Rights Society (ARS), New York; George Etheredge for The New York Times"
+        },
+        {
+        "url": "https://static01.nyt.com/images/2022/09/16/arts/15dekooning-auction1/merlin_211295313_5ec96ffa-8e8c-457a-85fe-78e570b0767e-threeByTwoSmallAt2X.jpg",
+        "format": "threeByTwoSmallAt2X",
+        "height": 400,
+        "width": 600,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Two paintings by Willem de Kooning in the artist’s studio in East Hampton. Left to right, “Untitled” (circa 1979) and “Montauk II” (1969). Sotheby’s is auctioning three paintings by the Abstract Expressionist master in November.",
+        "copyright": "The Willem de Kooning Foundation/Artists Rights Society (ARS), New York; George Etheredge for The New York Times"
+        },
+        {
+        "url": "https://static01.nyt.com/images/2022/09/16/arts/15dekooning-auction1/15dekooning-auction1-thumbLarge.jpg",
+        "format": "Large Thumbnail",
+        "height": 150,
+        "width": 150,
+        "type": "image",
+        "subtype": "photo",
+        "caption": "Two paintings by Willem de Kooning in the artist’s studio in East Hampton. Left to right, “Untitled” (circa 1979) and “Montauk II” (1969). Sotheby’s is auctioning three paintings by the Abstract Expressionist master in November.",
+        "copyright": "The Willem de Kooning Foundation/Artists Rights Society (ARS), New York; George Etheredge for The New York Times"
+        }
+    ],
+    "short_url": "https://nyti.ms/3DzRLFv"
+    }
+    ]
+}
